@@ -1,10 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Определяем функцию f(z) и её производную f'(z)
+# Определяем функцию f(z)
 def f(z):
     return z ** 5 - 1
 
+# Определяем её производную f'(z)
 def df(z):
     return 5 * z ** 4
 
