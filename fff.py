@@ -47,7 +47,7 @@ fractal_colors = create_fractal(xmin, xmax, ymin, ymax, width, height)
 # Визуализация
 # plt.imshow(...) Отображает массив цветов как изображение
 # Параметр extent задает границы отображаемой области
-# cmap='hsv' Указывает цветовую карту для визуализации
+# cmap='Set3' Указывает цветовую карту для визуализации
 plt.imshow(fractal_colors, extent=(xmin, xmax, ymin, ymax), cmap='Set3')
 
 # Добавляем цветовую шкалу к изображению
